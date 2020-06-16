@@ -51,7 +51,7 @@ function draw(banks) {
             bank.classList.add(goingUp? 'down': 'up');
         }
     }
-    window.requestAnimationFrame(function () {
+    window.requestAnimationFrame(function drawCats() {
         draw(banks);
     })
 }

@@ -3,7 +3,7 @@ import {fetchCats} from "./fetchCats";
 export function showCats(app) {
     const btn = document.createElement('button');
     app.appendChild(btn);
-    btn.innerText = 'Show Cats!!!';
+    btn.innerText = 'Show Cats!';
     btn.onclick = getCats;
     const catsUl = document.createElement('ul');
 
